@@ -1,0 +1,22 @@
+{
+  "name": "kube-forwarder",
+  "version": "1.0.0",
+  "description": "Kubernetes Port Forwarding Manager",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --port 3000",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "^0.22.3",
+    "nuxt": "^3.15.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@types/node": "^25.3.2",
+    "typescript": "^5.7.3"
+  }
+}

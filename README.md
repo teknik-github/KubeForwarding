@@ -6,6 +6,8 @@ A web-based Kubernetes port forwarding manager. Replaces `kubectl port-forward` 
 
 ---
 
+![Screenshot of the dashboard showing active port forwards with connection counts and logs](./public/image/image.png)
+
 ## Features
 
 - **GUI dashboard** — create, monitor, and stop port forwards without the CLI
